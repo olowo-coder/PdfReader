@@ -12,4 +12,8 @@ public class Alert implements Observer{
         add.add((String) event);
         return add;
     }
+
+    interface Result {
+        String output();
+    }
 }

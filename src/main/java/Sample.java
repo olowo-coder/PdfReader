@@ -1,8 +1,11 @@
+import org.apache.commons.logging.impl.ServletContextCleaner;
+
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Sample {
+
     public static void main(String[] args) {
         List<String> locks = new ArrayList<>();
 //        List<String> price = new ArrayList<>();
@@ -52,4 +55,6 @@ public class Sample {
 //        }
 
     }
+
+
 }
